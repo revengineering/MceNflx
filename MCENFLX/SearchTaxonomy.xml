@@ -1,0 +1,15 @@
+<SearchTaxonomy>
+	<Pivots>
+		<Pivot pivotName="Netflix" allPivot="true">
+			<Providers>
+				<Provider
+					providerName="NFLX"
+					id="746d4ccc-6ccf-4247-b843-e2c836bb3129"
+					vChannelId="Netflix"
+					serviceId="746d4ccc-6ccf-4247-b843-e2c836bb3129"
+					lookupByProvider="true"
+				/>
+			</Providers>
+		</Pivot>
+	</Pivots>
+</SearchTaxonomy>
