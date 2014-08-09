@@ -1,4 +1,6 @@
 @echo off
+pushd "%CD%"
+CD /D "%~dp0"
 echo.
 echo.Media Center Netflix Search Fix Service... > Uninstall.log
 echo. >> Uninstall.log
@@ -28,4 +30,5 @@ goto Fail
     echo.
     goto End
 :End
+popd
 pause
